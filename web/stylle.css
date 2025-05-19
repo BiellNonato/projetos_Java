@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.cadastro{
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.cadastro input{
+    width: 250px;
+    height: 20px;
+    border-radius: 5px;
+
+}
+
+button{
+    width: 100px;
+    height: 25px;
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Configurações</title>
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>Configurações do Sistema</h2>
+            <form method="post" action="configuracoes.jsp">
+                <label>Preço 1ª hora:</label>
+                <input type="number" name="preco1h" step="0.01" required><br>
+                <label>Preço por hora extra:</label>
+                <input type="number" name="precoExtra" step="0.01" required><br>
+                <label>Total de vagas:</label>
+                <input type="number" name="totalVagas" required><br>
+                <button type="submit">Salvar</button>
+            </form>
+        </div>
+    </body>
+</html>

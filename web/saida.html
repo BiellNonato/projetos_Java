@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Saída de Veículo</title>
+</head>
+<body>
+    <h2>Registrar Saída de Veículo</h2>
+    <form action="cadastro_saida.jsp" method="post">
+        <label for="placa">Placa do Veículo:</label>
+        <input type="text" id="placa" name="placa" pattern="[A-Z]{3}[0-9][0-9A-Z][0-9]{2}" required>
+        <small>Formato válido: ABC1D23</small><br><br>
+
+        <label for="dataSaida">Data e Hora da Saída:</label>
+        <input type="datetime-local" id="dataSaida" name="dataSaida" required><br><br>
+
+        <input type="submit" value="Registrar Saída">
+    </form>
+</body>
+</html>

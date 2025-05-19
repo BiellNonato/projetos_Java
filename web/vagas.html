@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrar Entrada</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registrar Entrada de Veículo</h2>
+        <form method="post" action="cadastro_entrada.jsp">
+            <label for="placa">Placa do Veículo</label>
+            <input type="text" id="placa" name="placa" placeholder="Digite a placa" required>
+
+            <label for="vaga">Selecione a Vaga</label>
+            <select id="vagas" name="vagas" required>
+                <option value="" disabled selected>Escolha a vaga</option>
+                <jsp:include page="vagas.jsp" />
+            </select>
+
+            <button type="submit">Registrar</button>
+        </form>
+    </div>
+</body>
+</html>

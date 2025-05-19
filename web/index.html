@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login - Estacionamento</title>
+</head>
+<body>
+
+    <h2>Login do Sistema</h2>
+
+    <form method="post" action="loginadm.jsp">
+        <label for="usuario">Usuário:</label>
+        <input type="text" id="usuario" name="usuario" placeholder="Digite seu usuário" required>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+
+        <label for="tipo">Tipo de acesso:</label>
+        <select id="tipo" name="tipo" required>
+            <option value="admin">adm</option>
+            <option value="operador">Operador</option>
+        </select>
+
+        <button type="submit">Entrar</button>
+    </form>
+
+</body>
+</html>
