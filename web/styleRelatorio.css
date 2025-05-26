@@ -1,0 +1,52 @@
+*{
+   padding: 0;
+    margin: 0;
+    border: 0;
+}
+body { 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.container_relatorio {
+    margin: 150px  ;
+    width: 25vw;
+    height: 30vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    background-color: rgb(64, 206, 206);
+    gap: 50px;
+    border-top-right-radius: 50px;
+}
+
+
+.container_relatorio form {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.container_relatorio label {
+    color: aliceblue;
+}
+
+.container_relatorio input {
+    border: 2px solid black;
+    width: 130px;
+    height: 20px;
+}
+
+.container_relatorio button {
+    margin-top: 10px;
+    width: 100px;
+    height: 20px;
+    color: aliceblue;
+    background-color: cadetblue;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+}
+
