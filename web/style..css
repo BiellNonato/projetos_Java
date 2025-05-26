@@ -1,8 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
+
+
+
 .vagas {
-justify-content: space-between;
-display: grid;
-grid-template-columns: repeat(5,1fr);
-gap: 40px;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
 }
 
 
@@ -17,6 +26,7 @@ gap: 40px;
     text-align: center;
     align-items: center;
     margin: 20px 20px;
+
 }
 
 
@@ -39,9 +49,46 @@ gap: 40px;
     color: white;
 }
 
-/* cadastro entrada */
 
-.container{
-    background-color: aqua;
+
+.container {
+    margin-bottom: 50px;
+    margin: 20px 200px 0px 200px;
+    display: flex;
+    width: 900px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(64, 206, 206);
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    padding: 10px 0px;
+
 }
 
+.container h2 {
+    color: aliceblue;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    color: aliceblue;
+}
+
+.container form input {
+    width: 200px;
+    height: 20px;
+
+
+}
+
+.container form button {
+    width: 200px;
+    height: 30px;
+    background-color: cadetblue;
+    color: aliceblue;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
