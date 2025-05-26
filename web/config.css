@@ -1,0 +1,54 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_config {
+    margin-top: 150px;
+    width: 30vw;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(64, 206, 206);
+
+}
+
+.container_config form {
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.container_config button {
+    background-color: cadetblue;
+    color: aliceblue;
+    border-radius: 3px;
+    width: 70px;
+    height: 20px;
+}
+
+.container_config h2 {
+    color: aliceblue;
+}
+
+.container_config label {
+    color: aliceblue;
+    
+}
+
+.container_config input {
+    border: solid 2px black;
+}
+
+.container_config 
