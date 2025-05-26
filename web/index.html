@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Login - Estacionamento</title>
+    <link rel="stylesheet" href="style..css">
 </head>
 <body>
-
-    <h2>Login do Sistema</h2>
+    <div class="container-login">
+    <h2>Login</h2>
 
     <form method="post" action="loginadm.jsp">
         <label for="usuario">Usuário:</label>
@@ -15,14 +16,15 @@
         <label for="senha">Senha:</label>
         <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
 
-        <label for="tipo">Tipo de acesso:</label>
+        <label id="for44" for="tipo">Tipo de acesso:</label>
         <select id="tipo" name="tipo" required>
+            <option value=""></option>
             <option value="admin">adm</option>
             <option value="operador">Operador</option>
         </select>
-
+        
         <button type="submit">Entrar</button>
     </form>
-
+    </div>
 </body>
 </html>

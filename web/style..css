@@ -92,3 +92,69 @@
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
+
+/* login */
+.container-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 35vw;
+    border-radius: 10px;
+    background-color: rgb(64, 206, 206);
+    margin: 160px 450px;
+    /* padding: 0px 50px 0px 50px; */
+
+}
+
+.container-login form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    gap: 3px;
+    align-items: center;
+    color: aliceblue;
+    margin-bottom: 85px;
+}
+
+
+.container-login input,
+select,
+button {
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    
+}
+
+.container-login h2 {
+    margin-top: 100px;
+    color: aliceblue;
+}
+
+.container-login button {
+    background-color: cadetblue;
+    color: aliceblue;
+    height: 30px;
+    cursor: pointer;
+    width: 90px;
+}
+
+.container-login ::placeholder{
+  padding: 0px 10px;
+}
+
+
+.container-login label {
+    font-weight: bold;
+    margin-right: 190px;
+    /* margin-left: 40px; */
+}
+
+#for44{
+    margin-left: 40px;
+}
